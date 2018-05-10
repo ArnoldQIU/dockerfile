@@ -1,8 +1,8 @@
 for i in `seq 1 7`
 do
-	pushd node$i >/dev/null
+	pushd node$i >/home/b10409022/tmp
 	docker build -t arrnoldc/7node:node$i .
-	popd >/dev/null
+	popd >/home/b10409022/tmp
 done
 
 for i in `seq 1 7`
