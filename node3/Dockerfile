@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Mark Peng
+MAINTAINER Luo Qiu
 
 RUN set -x \
     && apt-get update \
